@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  if username
+    p hi #{username}, you're logged in
+  else
+    p looks like there's a bug. try logging in
